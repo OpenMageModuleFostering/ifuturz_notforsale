@@ -1,0 +1,11 @@
+<!--/**
+ * @package Ifuturz_Notforsale
+*/-->
+<config>
+  <modules>
+    <Ifuturz_Notforsale>
+      <active>true</active>
+      <codePool>local</codePool>
+    </Ifuturz_Notforsale>
+  </modules>
+</config>
