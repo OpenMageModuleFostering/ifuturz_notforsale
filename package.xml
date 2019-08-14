@@ -1,7 +1,7 @@
 <?xml version="1.0"?>
 <package>
     <name>Ifuturz_Notforsale</name>
-    <version>0.1.0</version>
+    <version>0.2.0</version>
     <stability>stable</stability>
     <license uri="http://opensource.org/licenses/osl-3.0.php">OSL v3.0</license>
     <channel>community</channel>
@@ -23,11 +23,11 @@ Now, on front end when the user buys the product &#x201C;ABC&#x201D;, and he sel
 &#xD;
  - Even on the check out page, it is also checked that the shipping state is restricted for the specific products. Still, if the user clicks on &#x201C;Place Order&#x201D; button, the popup will appear with the message notifying that the product cannot be shipped to &#x201C;ABC&#x201D; state. &#xD;
 </description>
-    <notes>This is first stable version</notes>
+    <notes>Fixed template file issue</notes>
     <authors><author><name>Iverve</name><user>iverve</user><email>extension.geek@ifuturz.com</email></author></authors>
-    <date>2015-01-28</date>
-    <time>08:48:37</time>
-    <contents><target name="mageetc"><dir name="modules"><file name="Ifuturz_Notforsale.xml" hash="35344cfeced9cfc344ebcebbe0fae1bf"/></dir></target><target name="magelocal"><dir name="Ifuturz"><dir name="Notforsale"><dir name="Block"><file name="Notforsale.php" hash="48afe8adfbdbdd8cc0d231221c912eda"/></dir><dir name="Helper"><dir name="Catalog"><dir name="Product"><file name="Configuration.php" hash="47706019ff75b8605a6713b4649ce252"/></dir></dir><file name="Data.php" hash="c59ca56fdd9777b9bd9a104e1ad9d3f0"/><dir name="Product"><file name="Configuration.php" hash="dc54fea3cd51a9b88a9a11e382f36582"/></dir></dir><dir name="Model"><file name="Observer.php" hash="18593e5d96ef7dbf6fe033f067dc90c3"/></dir><dir name="controllers"><file name="CartController.php" hash="ad502343e67f787ad31706587df12074"/><file name="IndexController.php" hash="3c529a539ce12dd34792f5874d06fb94"/><file name="OnepageController.php" hash="ef2f8e4ffa2bd42564f6febdbb397332"/></dir><dir name="etc"><file name="config.xml" hash="eb8dfb90191a8580774edcfa4acb8ebb"/></dir><dir name="sql"><dir name="notforsale_setup"><file name="mysql4-install-0.1.0.php" hash="6d59a731a75001a4154a721d944da306"/></dir></dir></dir></dir></target><target name="magedesign"><dir name="frontend"><dir name="base"><dir name="default"><dir name="layout"><file name="notforsale.xml" hash="e43fb16d76de674d5e47a4c61515c516"/></dir></dir></dir></dir></target></contents>
+    <date>2015-10-29</date>
+    <time>08:31:35</time>
+    <contents><target name="mageetc"><dir name="modules"><file name="Ifuturz_Notforsale.xml" hash="35344cfeced9cfc344ebcebbe0fae1bf"/></dir></target><target name="magelocal"><dir name="Ifuturz"><dir name="Notforsale"><dir name="Block"><file name="Notforsale.php" hash="48afe8adfbdbdd8cc0d231221c912eda"/></dir><dir name="Helper"><dir name="Catalog"><dir name="Product"><file name="Configuration.php" hash="47706019ff75b8605a6713b4649ce252"/></dir></dir><file name="Data.php" hash="c59ca56fdd9777b9bd9a104e1ad9d3f0"/><dir name="Product"><file name="Configuration.php" hash="dc54fea3cd51a9b88a9a11e382f36582"/></dir></dir><dir name="Model"><file name="Observer.php" hash="18593e5d96ef7dbf6fe033f067dc90c3"/></dir><dir name="controllers"><file name="CartController.php" hash="ad502343e67f787ad31706587df12074"/><file name="IndexController.php" hash="3c529a539ce12dd34792f5874d06fb94"/><file name="OnepageController.php" hash="ef2f8e4ffa2bd42564f6febdbb397332"/></dir><dir name="etc"><file name="config.xml" hash="eb8dfb90191a8580774edcfa4acb8ebb"/></dir><dir name="sql"><dir name="notforsale_setup"><file name="mysql4-install-0.1.0.php" hash="6d59a731a75001a4154a721d944da306"/></dir></dir></dir></dir></target><target name="magedesign"><dir name="frontend"><dir name="base"><dir name="default"><dir name="layout"><file name="notforsale.xml" hash="e43fb16d76de674d5e47a4c61515c516"/></dir><dir name="template"><dir name="notforsale"><dir><dir name="item"><file name="default.phtml" hash="ca262d152d1b6da74afa5798f3bca30a"/></dir></dir></dir></dir></dir></dir></dir></target></contents>
     <compatible/>
     <dependencies><required><php><min>5.1.0</min><max>6.0.0</max></php></required></dependencies>
 </package>
