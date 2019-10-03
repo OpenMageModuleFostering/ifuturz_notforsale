@@ -1,16 +1,19 @@
 {
-    "name": "OpenMageModuleFostering/Ifuturz_Notforsale",
+    "name": "OpenMageModuleFostering\/Ifuturz_Notforsale",
     "type": "magento-module",
     "license": "OSL-v3.0",
     "homepage": "",
     "description": "Some clients need to restrict their specific products for sale to specific states. This extension will let you restrict your products for sale to US states.",
     "authors": [
-    {
-        "name": "Iverve",
-        "email": "extension.geek@ifuturz.com"
-    }
-],
+        {
+            "name": "Iverve",
+            "email": "extension.geek@ifuturz.com"
+        }
+    ],
     "suggest": {
-        "magento-hackathon/magento-composer-installer": "*"
-    }
+        "magento-hackathon\/magento-composer-installer": "*"
+    },
+    "keywords": [
+        "openmage-module"
+    ]
 }
